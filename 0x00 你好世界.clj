@@ -13,8 +13,7 @@
 ;----------------------------
 
 (defn mcons [a b]
- (fn [f] (f a b) )
-    )
+ (fn [f] (f a b) ))
 
 (defn mcar [z]
   (z (fn [a _] a)))
