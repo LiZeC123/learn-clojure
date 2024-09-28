@@ -2,6 +2,27 @@ Clojure学习库
 =========================
 
 
+使用Github Codespace构建环境
+-------------------------------
+
+首先执行当前仓库的如下指令, 安装Clojure
+
+```
+sudo ./linux-install.sh
+```
+
+> 脚本来自Clojure官网, 使用该脚本以root权限安装Clojure环境
+
+然后执行如下脚本安装Jupyter环境
+
+```
+./install-lab.sh
+```
+
+
+
+
+
 Clojure是一种运行在JVM上的Lisp方言. Clojure语言因此在语法上与Scheme有较多的相似性, 同时又可以充分利用Java生态中的各类工具.
 
 
